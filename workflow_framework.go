@@ -1,6 +1,8 @@
 package testutils
 
 import (
+	"runtime/debug"
+
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 	"go.temporal.io/sdk/testsuite"
